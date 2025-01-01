@@ -6,9 +6,11 @@
     "start": "nodemon ./bin/www"
   },
   "dependencies": {
+    "@handlebars/allow-prototype-access": "^1.0.5",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "^4.21.2",
+    "express-fileupload": "^1.5.1",
     "express-handlebars": "^8.0.1",
     "hbs": "^4.2.0",
     "http-errors": "~1.6.3",
